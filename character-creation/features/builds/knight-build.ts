@@ -1,6 +1,6 @@
 import { Build } from "./build";
 
-export class ExplorerBuild implements Build {
+export class KnightBuild implements Build {
   createBuild(): void {
     throw new Error("Method not implemented.");
   }
