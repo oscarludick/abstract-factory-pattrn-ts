@@ -2,13 +2,13 @@ import { Body } from "./features/bodies/a-body";
 import { Build } from "./features/builds/build";
 import { Face } from "./features/faces/face";
 
+import { ExplorerBuild } from "./features/builds/explorer-build";
 import { ThinBody } from "./features/bodies/thin-body";
+import { AsianFace } from "./features/faces/asian-face";
 
 import { CharacterCreatorFactory } from "./character-creator-factory";
-import { AsianFace } from "./features/faces/asian-face";
-import { ExplorerBuild } from "./features/builds/explorer-build";
 
-export class RangerFactory implements CharacterCreatorFactory {
+export class ExplorerFactory implements CharacterCreatorFactory {
   createBody(): Body {
     return new ThinBody();
   }

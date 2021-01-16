@@ -8,4 +8,8 @@ export abstract class Character {
   build: Build;
 
   abstract createCharacter(): void;
+
+  description(): void {
+    console.log(`Body ${this.body}, Body ${this.build}, Body ${this.face}`);
+  }
 }
