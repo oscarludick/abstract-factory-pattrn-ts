@@ -8,7 +8,7 @@ import { CharacterCreatorFactory } from "./character-creator-factory";
 import { AsianFace } from "./features/faces/asian-face";
 import { ExplorerBuild } from "./features/builds/explorer-build";
 
-export class ExplorerCharacerFactory implements CharacterCreatorFactory {
+export class RangerFactory implements CharacterCreatorFactory {
   createBody(): Body {
     return new ThinBody();
   }
