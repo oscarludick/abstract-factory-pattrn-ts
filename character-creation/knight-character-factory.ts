@@ -1,6 +1,6 @@
 import { Body } from "./features/bodies/a-body";
 import { Build } from "./features/builds/build";
-import { Face } from "./features/faces/face";
+import { Face } from "./features/faces/a-face";
 
 import { KnightBuild } from "./features/builds/knight-build";
 import { AverageBody } from "./features/bodies/average-body";
