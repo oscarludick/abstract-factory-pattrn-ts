@@ -10,6 +10,6 @@ export abstract class Character {
   abstract createCharacter(): void;
 
   description(): void {
-    console.log(`Body ${this.body}, Body ${this.build}, Body ${this.face}`);
+    console.log(`Body ${this.body}, Build ${this.build}, Face ${this.face}`);
   }
 }
