@@ -1,5 +1,6 @@
 import { Character } from "./character";
-import { CharacterCreatorFactory } from "../character-creator-factory";
+
+import { CharacterCreatorFactory } from "../character-factories/character-creator-factory";
 
 export class MeleeCharacter extends Character {
   private _characterFactory: CharacterCreatorFactory;
